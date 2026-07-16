@@ -1,0 +1,24 @@
+{
+  "name": "com.cowart.navigation-marker",
+  "version": "1.0.0",
+  "displayName": "Navigation Marker",
+  "description": "基于 Unity NavMesh 路径绘制带滚动箭头效果的运行时导航线。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Cowart"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/unity-navigation-marker.git"
+  },
+  "dependencies": {
+    "com.unity.modules.ai": "1.0.0"
+  },
+  "keywords": [
+    "navigation",
+    "navmesh",
+    "path",
+    "line-renderer"
+  ]
+}

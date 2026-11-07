@@ -34,7 +34,7 @@ com.cowart.navigation-marker
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-navigation-marker.git#1.0.2
+https://github.com/liuyan7669/unity-navigation-marker.git#1.0.3
 ```
 
 ## 使用前准备

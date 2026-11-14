@@ -1,4 +1,7 @@
 {
   "name": "Cowart.NavigationMarker",
-  "rootNamespace": "Cowart.NavigationMarker"
+  "rootNamespace": "Cowart.NavigationMarker",
+  "references": [
+    "Cowart.InspectorGroups"
+  ]
 }

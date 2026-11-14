@@ -34,7 +34,7 @@ com.cowart.navigation-marker
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-navigation-marker.git#1.0.3
+https://github.com/liuyan7669/unity-navigation-marker.git#3.1.0
 ```
 
 ## 使用前准备
@@ -137,3 +137,7 @@ GameObject instance = Instantiate(prefab);
 ## 许可证
 
 本包使用 MIT License，详情参见仓库中的许可证文件。
+
+## Inspector 统一依赖
+
+本包声明依赖 `com.cowart.inspector-groups` `3.1.0`，Inspector 样式统一由该基础包提供。安装前须配置 OpenUPM scoped registry（`https://package.openupm.com`，scope `com.cowart`）；UPM 会根据 dependencies 连带解析 Inspector Groups。使用未发布源码时，请同时使用本地 Inspector Groups 3.1.0。业务包之间不互相依赖，Samples 的可选组合不受此限制。
